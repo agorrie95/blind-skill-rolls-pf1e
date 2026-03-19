@@ -1,0 +1,29 @@
+{
+  "id": "blind-skill-rolls-pf1e",
+  "title": "Blind Skill Rolls (PF1e)",
+  "description": "Sends skill roll results only to the GM. Players see a notification that a blind roll occurred, but not the result.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "You"
+    }
+  ],
+  "esmodules": ["scripts/blind-skill-rolls.js"],
+  "styles": [],
+  "languages": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "9"
+        }
+      }
+    ]
+  }
+}
