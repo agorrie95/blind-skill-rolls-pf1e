@@ -1,29 +1,32 @@
 {
-  "id": "blind-skill-rolls-pf1e",
-  "title": "Blind Skill Rolls (PF1e)",
-  "description": "Sends skill roll results only to the GM. Players see a notification that a blind roll occurred, but not the result.",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "12"
-  },
-  "authors": [
-    {
-      "name": "You"
+    "id": "blind-skill-rolls-pf1e",
+    "title": "Blind Skill Rolls (PF1e)",
+    "description": "Sends skill roll results only to the GM. Players see a notification that a blind roll occurred, but not the result.",
+    "version": "1.0.0",
+    "compatibility": {
+          "minimum": "11",
+          "verified": "12"
+    },
+    "authors": [
+          {
+                  "name": "You"
+          }
+    ],
+    "url": "https://github.com/agorrie95/blind-skill-rolls-pf1e",
+    "manifest": "https://raw.githubusercontent.com/agorrie95/blind-skill-rolls-pf1e/main/module.json",
+    "download": "https://github.com/agorrie95/blind-skill-rolls-pf1e/archive/refs/heads/main.zip",
+    "esmodules": ["scripts/blind-skill-rolls.js"],
+    "styles": [],
+    "languages": [],
+    "relationships": {
+          "systems": [
+                  {
+                            "id": "pf1",
+                            "type": "system",
+                            "compatibility": {
+                                        "minimum": "9"
+                            }
+                  }
+          ]
     }
-  ],
-  "esmodules": ["scripts/blind-skill-rolls.js"],
-  "styles": [],
-  "languages": [],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf1",
-        "type": "system",
-        "compatibility": {
-          "minimum": "9"
-        }
-      }
-    ]
-  }
 }
